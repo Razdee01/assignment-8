@@ -13,15 +13,17 @@ const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
+    errorElement:<Error></Error>,
+    hydrateFallbackElement:<p>Loading...</p>,
     children: [
       { index: true, Component: Home },
       { path: "apps", Component: Apps },
       { path: "installation", Component: Installation },
     ],
-  },
+  }
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />,
+    <RouterProvider router={router} />
   </StrictMode>
 );

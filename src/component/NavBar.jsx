@@ -30,7 +30,9 @@ const NavBar = () => {
             <li>
               <NavLink
                 to="/"
-                className={({ isActive }) =>isActive ? "underline text-purple-600" : "hover:underline" }
+                className={({ isActive }) =>
+                  isActive ? "underline text-purple-600" : "hover:underline"
+                }
               >
                 Home
               </NavLink>
@@ -102,10 +104,13 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+        <Link
+          to={"https://github.com/Razdee01/assignment-8"}
+          className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+        >
           <img src="../assets/Vector.png" alt="" />
           Contribute
-        </a>
+        </Link>
       </div>
     </div>
   );
