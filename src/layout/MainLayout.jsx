@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../component/NavBar';
 import Footer from '../component/Footer';
 import { Outlet } from 'react-router';
+import Error from '../component/Error';
 
 const MainLayout = () => {
     return (
@@ -9,6 +10,7 @@ const MainLayout = () => {
         <div className="w-11/12 mx-auto">
           <NavBar />
         </div>
+        
         <div className="flex-1">
           <Outlet />
         </div>

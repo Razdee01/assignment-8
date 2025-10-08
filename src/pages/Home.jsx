@@ -3,9 +3,19 @@ import { Link } from "react-router";
 import useApps from "../customHook/useApps";
 import HomeApps from "../component/HomeApps";
 
+
+
 const Home = () => {
   const { apps, loading, error } = useApps();
   const homePage = apps.slice(0, 8);
+
+  if (loading) {
+    return <p>Loading...</p>;
+  }
+  // if(error){
+  //   return <Error></Error>
+  // }
+  
   return (
     <>
       <div className="text-center my-3">

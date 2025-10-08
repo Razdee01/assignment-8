@@ -8,12 +8,14 @@ import MainLayout from './layout/MainLayout.jsx'
 import Home from './pages/Home.jsx'
 import Apps from './pages/Apps.jsx'
 import Installation from './pages/Installation.jsx'
+import Error from './component/Error.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
     errorElement:<Error></Error>,
+
     hydrateFallbackElement:<p>Loading...</p>,
     children: [
       { index: true, Component: Home },
