@@ -9,20 +9,22 @@ import Home from './pages/Home.jsx'
 import Apps from './pages/Apps.jsx'
 import Installation from './pages/Installation.jsx'
 import Error from './component/Error.jsx'
+import AppDetails from './component/AppDetails.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
-    errorElement:<Error></Error>,
+    errorElement: <Error></Error>,
 
-    hydrateFallbackElement:<p>Loading...</p>,
+    hydrateFallbackElement: <p>Loading...</p>,
     children: [
       { index: true, Component: Home },
       { path: "apps", Component: Apps },
       { path: "installation", Component: Installation },
+      { path: "/details/:id", Component: AppDetails },
     ],
-  }
+  },
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>

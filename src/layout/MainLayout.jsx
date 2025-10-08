@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../component/NavBar';
 import Footer from '../component/Footer';
 import { Outlet } from 'react-router';
-import Error from '../component/Error';
+
 
 const MainLayout = () => {
     return (

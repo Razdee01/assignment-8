@@ -1,362 +1,222 @@
 [
   {
+    "id": 1,
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg",
     "title": "Spotify: Music and Podcasts",
     "companyName": "Spotify AB",
-    "id": 1,
-    "description": "Listen to millions of songs, podcasts, and audiobooks with personalized playlists and recommendations.",
     "size": 38,
-    "reviews": 32400000,
+    "downloads": "1B+",
+    "reviews": "32.4M",
     "ratingAvg": 4.4,
-    "downloads": "1 B+",
-    "ratings": [
-      { "name": "1 star", "count": 1500000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 2400000 },
-      { "name": "4 star", "count": 5500000 },
-      { "name": "5 star", "count": 22000000 }
-    ]
+    "description": "Spotify lets you listen to millions of songs, podcasts, and audiobooks with personalized recommendations. Create and share playlists, explore new releases, and enjoy your favorite artists across all your devices. With offline listening and premium sound quality, Spotify delivers a seamless audio experience. Discover your next favorite track every day with curated mixes and radio stations."
   },
   {
+    "id": 2,
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg",
     "title": "Instagram",
     "companyName": "Instagram",
-    "id": 2,
-    "description": "Connect with friends, share photos and videos, and explore trending reels around the world.",
     "size": 64,
-    "reviews": 158000000,
+    "downloads": "5B+",
+    "reviews": "158M",
     "ratingAvg": 4.2,
-    "downloads": "5 B+",
-    "ratings": [
-      { "name": "1 star", "count": 9200000 },
-      { "name": "2 star", "count": 4200000 },
-      { "name": "3 star", "count": 9500000 },
-      { "name": "4 star", "count": 27000000 },
-      { "name": "5 star", "count": 108000000 }
-    ]
+    "description": "Instagram is a social platform where you can share your life through photos, videos, and stories. Connect with friends, follow creators, and explore content from around the world. Use Reels to create and discover entertaining short videos, or shop directly from your favorite brands. Express yourself creatively and stay connected with your community every day."
   },
   {
+    "id": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
     "title": "WhatsApp Messenger",
     "companyName": "WhatsApp LLC",
-    "id": 3,
-    "description": "Free, simple, and secure messaging and calling for anyone, anywhere in the world.",
     "size": 39,
-    "reviews": 189000000,
+    "downloads": "5B+",
+    "reviews": "189M",
     "ratingAvg": 4.3,
-    "downloads": "5 B+",
-    "ratings": [
-      { "name": "1 star", "count": 14000000 },
-      { "name": "2 star", "count": 6200000 },
-      { "name": "3 star", "count": 12800000 },
-      { "name": "4 star", "count": 29000000 },
-      { "name": "5 star", "count": 127000000 }
-    ]
+    "description": "WhatsApp Messenger makes it simple to stay in touch with friends and family for free, using your internet connection. Send text messages, photos, videos, and voice messages instantly. Enjoy high-quality voice and video calls across the world, and stay secure with end-to-end encryption. With group chats and status updates, WhatsApp keeps your connections close wherever you are."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/0/09/TikTok_logo.svg",
+    "id": 4,
+    "image": "https://i.ibb.co.com/4Rv6WvzJ/10464230.png",
     "title": "TikTok",
     "companyName": "TikTok Pte. Ltd.",
-    "id": 4,
-    "description": "Create, watch, and share short videos anytime and anywhere.",
     "size": 78,
-    "reviews": 112000000,
+    "downloads": "5B+",
+    "reviews": "112M",
     "ratingAvg": 4.5,
-    "downloads": "5 B+",
-    "ratings": [
-      { "name": "1 star", "count": 5800000 },
-      { "name": "2 star", "count": 3300000 },
-      { "name": "3 star", "count": 7200000 },
-      { "name": "4 star", "count": 19000000 },
-      { "name": "5 star", "count": 81000000 }
-    ]
+    "description": "TikTok is the ultimate destination for short-form mobile videos that inspire creativity and bring joy. Discover trending content from creators around the world, or join in by sharing your own. With powerful editing tools, effects, and music options, you can make every video unique. Explore new ideas, challenges, and entertainment — all in one place."
   },
   {
+    "id": 5,
     "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Snapchat_logo.svg",
     "title": "Snapchat",
     "companyName": "Snap Inc",
-    "id": 5,
-    "description": "Share moments instantly, chat, and express yourself with filters, Bitmoji, and Stories.",
     "size": 65,
-    "reviews": 34500000,
+    "downloads": "1B+",
+    "reviews": "34.5M",
     "ratingAvg": 4.1,
-    "downloads": "1 B+",
-    "ratings": [
-      { "name": "1 star", "count": 4200000 },
-      { "name": "2 star", "count": 2600000 },
-      { "name": "3 star", "count": 5800000 },
-      { "name": "4 star", "count": 9500000 },
-      { "name": "5 star", "count": 12500000 }
-    ]
+    "description": "Snapchat is a fast and fun camera app that helps you stay connected with friends and express yourself. Share moments instantly with Snaps, or start conversations using chat, voice, or video. Explore public stories and spotlight videos from around the world. With creative lenses, filters, and Bitmojis, every Snap feels unique and personal."
   },
   {
+    "id": 6,
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
-    "id": 6,
-    "description": "Fast, secure, and powerful messaging app with privacy and unlimited cloud storage.",
     "size": 42,
-    "reviews": 15000000,
+    "downloads": "1B+",
+    "reviews": "15M",
     "ratingAvg": 4.6,
-    "downloads": "1 B+",
-    "ratings": [
-      { "name": "1 star", "count": 600000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 700000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 10800000 }
-    ]
+    "description": "Telegram is a fast, secure, and powerful messaging app with privacy and unlimited cloud storage. Send messages, media, and files of any type securely. Enjoy advanced group chats, channels, and bots to enhance communication. Telegram ensures your conversations stay safe while keeping you connected wherever you are."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Google_Maps_Logo_2020.svg",
+    "id": 7,
+    "image": "https://i.ibb.co.com/XkN21ftX/location-pin-on-map.jpg",
     "title": "Google Maps",
     "companyName": "Google LLC",
-    "id": 7,
-    "description": "Navigate your world faster and easier with real-time GPS navigation, traffic, and transit info.",
     "size": 48,
-    "reviews": 16200000,
+    "downloads": "10B+",
+    "reviews": "16.2M",
     "ratingAvg": 4.4,
-    "downloads": "10 B+",
-    "ratings": [
-      { "name": "1 star", "count": 1400000 },
-      { "name": "2 star", "count": 500000 },
-      { "name": "3 star", "count": 1200000 },
-      { "name": "4 star", "count": 3300000 },
-      { "name": "5 star", "count": 9700000 }
-    ]
+    "description": "Google Maps provides accurate navigation, real-time traffic updates, and local business information. Explore new places, find restaurants, and get directions with voice-guided GPS. Save your favorite locations and share them easily with friends. Whether you’re driving, walking, or biking, Google Maps makes every journey easier."
   },
   {
+    "id": 8,
     "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
     "title": "YouTube",
     "companyName": "Google LLC",
-    "id": 8,
-    "description": "Watch, create, and share videos across the world’s largest video community.",
     "size": 63,
-    "reviews": 155000000,
+    "downloads": "10B+",
+    "reviews": "155M",
     "ratingAvg": 4.3,
-    "downloads": "10 B+",
-    "ratings": [
-      { "name": "1 star", "count": 9500000 },
-      { "name": "2 star", "count": 4200000 },
-      { "name": "3 star", "count": 8900000 },
-      { "name": "4 star", "count": 26000000 },
-      { "name": "5 star", "count": 107000000 }
-    ]
+    "description": "YouTube is the world’s largest video-sharing platform where you can watch, create, and share content. Discover music, vlogs, tutorials, and entertainment from millions of creators. Subscribe to channels you love and stay updated with notifications for new videos. Stream seamlessly across devices and enjoy offline viewing with YouTube Premium."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_N_logo.svg",
+    "id": 9,
+    "image": "https://i.ibb.co.com/HfQXxMPs/Brand-Assets-Logos-01-Wordmark.jpg",
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
-    "id": 9,
-    "description": "Watch movies, TV shows, and documentaries instantly on your mobile device.",
     "size": 45,
-    "reviews": 15900000,
+    "downloads": "1B+",
+    "reviews": "15.9M",
     "ratingAvg": 4.4,
-    "downloads": "1 B+",
-    "ratings": [
-      { "name": "1 star", "count": 1100000 },
-      { "name": "2 star", "count": 550000 },
-      { "name": "3 star", "count": 1300000 },
-      { "name": "4 star", "count": 2700000 },
-      { "name": "5 star", "count": 11000000 }
-    ]
+    "description": "Netflix is the leading streaming service for watching movies, TV shows, and documentaries. Enjoy unlimited viewing with personalized recommendations and exclusive original content. Download episodes to watch offline and switch between devices effortlessly. Discover new entertainment every day with global hits and local favorites."
   },
   {
+    "id": 10,
     "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
-    "id": 10,
-    "description": "Connect with friends, share updates, photos, and videos with communities around the world.",
     "size": 60,
-    "reviews": 135000000,
+    "downloads": "5B+",
+    "reviews": "135M",
     "ratingAvg": 4.1,
-    "downloads": "5 B+",
-    "ratings": [
-      { "name": "1 star", "count": 9500000 },
-      { "name": "2 star", "count": 4800000 },
-      { "name": "3 star", "count": 8500000 },
-      { "name": "4 star", "count": 27000000 },
-      { "name": "5 star", "count": 86000000 }
-    ]
+    "description": "Facebook helps you stay connected with friends, family, and communities worldwide. Share updates, photos, and memories, or join groups that match your interests. Buy and sell items on Marketplace, watch videos, or follow your favorite pages. Facebook keeps you informed and connected, no matter where you are."
   },
   {
+    "id": 11,
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
     "title": "Amazon Shopping",
     "companyName": "Amazon Mobile LLC",
-    "id": 11,
-    "description": "Shop online for deals, electronics, clothing, and more with fast delivery and secure checkout.",
     "size": 52,
-    "reviews": 24500000,
+    "downloads": "500M+",
+    "reviews": "24.5M",
     "ratingAvg": 4.3,
-    "downloads": "500 M+",
-    "ratings": [
-      { "name": "1 star", "count": 1700000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 2200000 },
-      { "name": "4 star", "count": 5400000 },
-      { "name": "5 star", "count": 14200000 }
-    ]
+    "description": "Amazon Shopping gives you access to millions of products with fast delivery and secure payments. Browse categories, track your orders, and get real-time deals and discounts. With personalized recommendations and 24/7 customer support, shopping online is easier than ever. Discover convenience and savings in every purchase."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Twitter_bird_logo_2012.svg",
+    "id": 12,
+    "image": "https://i.ibb.co.com/LhPxHtRX/x-logo-49788.png",
     "title": "Twitter (X)",
     "companyName": "X Corp.",
-    "id": 12,
-    "description": "Join the conversation and see what’s happening in the world right now.",
     "size": 50,
-    "reviews": 17500000,
+    "downloads": "1B+",
+    "reviews": "17.5M",
     "ratingAvg": 4.0,
-    "downloads": "1 B+",
-    "ratings": [
-      { "name": "1 star", "count": 2400000 },
-      { "name": "2 star", "count": 1200000 },
-      { "name": "3 star", "count": 2700000 },
-      { "name": "4 star", "count": 4700000 },
-      { "name": "5 star", "count": 6600000 }
-    ]
+    "description": "Twitter (X) lets you join the conversation and see what's happening worldwide. Post tweets, follow trends, and engage with communities that interest you. Share text, photos, videos, or links to express your ideas instantly. Stay informed in real-time and interact with content from millions of users."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/PUBG_logo.svg",
+    "id": 13,
+    "image": "https://i.ibb.co.com/nNDsDRMp/hd-pubg-mobile-png-transparent-background-24.png",
     "title": "PUBG MOBILE",
     "companyName": "Level Infinite",
-    "id": 13,
-    "description": "Battle it out in fast-paced matches, realistic graphics, and thrilling gameplay.",
     "size": 720,
-    "reviews": 46100000,
+    "downloads": "1B+",
+    "reviews": "46.1M",
     "ratingAvg": 4.3,
-    "downloads": "1 B+",
-    "ratings": [
-      { "name": "1 star", "count": 3700000 },
-      { "name": "2 star", "count": 1900000 },
-      { "name": "3 star", "count": 4200000 },
-      { "name": "4 star", "count": 9600000 },
-      { "name": "5 star", "count": 26300000 }
-    ]
+    "description": "PUBG MOBILE delivers thrilling multiplayer battle royale action with realistic graphics and immersive gameplay. Compete solo, duo, or in squads, and explore detailed maps for strategic combat. Participate in seasonal events, missions, and challenges to earn rewards. Team up with friends and experience intense, fast-paced battles anywhere."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Subway_Surfers_app_logo.png",
+    "id": 14,
+    "image": "https://i.ibb.co.com/nqwK82WL/23-233072-subway-surfers-logo-png-transparent-png.png",
     "title": "Subway Surfers",
     "companyName": "SYBO Games",
-    "id": 14,
-    "description": "Run as fast as you can, dodge the trains, and help Jake escape the inspector!",
     "size": 153,
-    "reviews": 39100000,
+    "downloads": "1B+",
+    "reviews": "39.1M",
     "ratingAvg": 4.5,
-    "downloads": "1 B+",
-    "ratings": [
-      { "name": "1 star", "count": 2400000 },
-      { "name": "2 star", "count": 1000000 },
-      { "name": "3 star", "count": 2300000 },
-      { "name": "4 star", "count": 7200000 },
-      { "name": "5 star", "count": 26200000 }
-    ]
+    "description": "Subway Surfers is an endless runner game where you dodge trains, collect coins, and escape from the inspector. Explore vibrant cities around the world and upgrade your character’s skills. Complete daily challenges and participate in events for exciting rewards. Smooth controls, colorful visuals, and fun power-ups make every run addictive."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.svg",
+    "id": 15,
+    "image": "https://i.ibb.co.com/RpMB3Crx/pngtree-gmail-logo-png-image-282635.jpg",
     "title": "Gmail",
     "companyName": "Google LLC",
-    "id": 15,
-    "description": "Secure, smart, and easy-to-use email app that helps you stay organized and productive.",
     "size": 34,
-    "reviews": 11500000,
+    "downloads": "10B+",
+    "reviews": "11.5M",
     "ratingAvg": 4.3,
-    "downloads": "10 B+",
-    "ratings": [
-      { "name": "1 star", "count": 900000 },
-      { "name": "2 star", "count": 400000 },
-      { "name": "3 star", "count": 1200000 },
-      { "name": "4 star", "count": 2700000 },
-      { "name": "5 star", "count": 7100000 }
-    ]
+    "description": "Gmail is a reliable and secure email app that helps you stay organized and connected. Automatically filter spam, manage inbox categories, and search emails quickly. Access your messages across devices with seamless synchronization and smart notifications. Communicate easily with built-in video calls and Google Chat integration."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Zoom_Communications_Logo.svg",
+    "id": 16,
+    "image": "https://i.ibb.co.com/R4301D7v/zoom-logo-png-seeklogo-479743.png",
     "title": "Zoom - One Platform to Connect",
     "companyName": "Zoom Video Communications, Inc.",
-    "id": 16,
-    "description": "Stay connected with secure video meetings, chat, and cloud phone calls anywhere.",
     "size": 77,
-    "reviews": 11000000,
+    "downloads": "1B+",
+    "reviews": "11M",
     "ratingAvg": 4.2,
-    "downloads": "1 B+",
-    "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 700000 },
-      { "name": "3 star", "count": 1300000 },
-      { "name": "4 star", "count": 2600000 },
-      { "name": "5 star", "count": 5200000 }
-    ]
+    "description": "Zoom provides reliable video conferencing, messaging, and collaboration tools for teams and individuals. Host secure meetings, webinars, and online events from any device. With HD video, screen sharing, and breakout rooms, communication is seamless and productive. Stay connected anywhere with Zoom’s trusted global platform."
   },
   {
+    "id": 17,
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg",
     "title": "LinkedIn",
     "companyName": "LinkedIn",
-    "id": 17,
-    "description": "Grow your professional network, get job alerts, and stay updated with business news.",
     "size": 54,
-    "reviews": 18700000,
+    "downloads": "1B+",
+    "reviews": "18.7M",
     "ratingAvg": 4.4,
-    "downloads": "1 B+",
-    "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 700000 },
-      { "name": "3 star", "count": 2000000 },
-      { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 9700000 }
-    ]
+    "description": "LinkedIn helps you connect with professionals, build your network, and grow your career. Discover job opportunities, follow companies, and stay informed with industry news. Share your achievements and insights to engage with your community. Whether you’re hiring or job hunting, LinkedIn makes professional networking easier."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Spotify_Lite_Logo.svg",
+    "id": 18,
+    "image": "https://i.ibb.co.com/gM8tNgr4/png-transparent-spotify-podcast-spotify-logo-text-logo-music-download-thumbnail.png",
     "title": "Spotify Lite",
     "companyName": "Spotify AB",
-    "id": 18,
-    "description": "A smaller, faster, and simpler version of Spotify designed for low-end devices.",
     "size": 12,
-    "reviews": 2200000,
+    "downloads": "100M+",
+    "reviews": "2.2M",
     "ratingAvg": 4.4,
-    "downloads": "100 M+",
-    "ratings": [
-      { "name": "1 star", "count": 150000 },
-      { "name": "2 star", "count": 80000 },
-      { "name": "3 star", "count": 220000 },
-      { "name": "4 star", "count": 500000 },
-      { "name": "5 star", "count": 1350000 }
-    ]
+    "description": "Spotify Lite is a simplified version of Spotify built for speed and efficiency. Enjoy millions of songs and podcasts while using less data and storage space. Track your data usage, manage downloads, and stream even on slower networks. Perfect for listeners who want music anywhere, anytime, without compromising performance."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Canva_Logo.svg",
+    "id": 19,
+    "image": "https://i.ibb.co.com/BVCFjTtb/canva-logo-png-seeklogo-438258.png",
     "title": "Canva: Design, Photo & Video",
     "companyName": "Canva",
-    "id": 19,
-    "description": "Create stunning social media posts, videos, logos, and presentations effortlessly.",
     "size": 48,
-    "reviews": 10300000,
+    "downloads": "500M+",
+    "reviews": "10.3M",
     "ratingAvg": 4.7,
-    "downloads": "500 M+",
-    "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 180000 },
-      { "name": "3 star", "count": 400000 },
-      { "name": "4 star", "count": 1200000 },
-      { "name": "5 star", "count": 8100000 }
-    ]
+    "description": "Canva makes designing easy and accessible for everyone. Create social media posts, videos, logos, and presentations effortlessly using intuitive tools and templates. Collaborate with your team in real time and export your designs quickly. Whether for professional or personal projects, Canva simplifies creative expression."
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Duolingo_logo.svg",
+    "id": 20,
+    "image": "https://i.ibb.co.com/qY91FsfX/duolingo-logo-png-seeklogo-458347.png",
     "title": "Duolingo: Language Lessons",
     "companyName": "Duolingo",
-    "id": 20,
-    "description": "Learn over 30 languages with quick, fun, and free lessons.",
     "size": 40,
-    "reviews": 18100000,
+    "downloads": "500M+",
+    "reviews": "18.1M",
     "ratingAvg": 4.7,
-    "downloads": "500 M+",
-    "ratings": [
-      { "name": "1 star", "count": 900000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 800000 },
-      { "name": "4 star", "count": 2300000 },
-      { "name": "5 star", "count": 13600000 }
-    ]
+    "description": "Duolingo makes learning a new language fun, fast, and free. Practice speaking, reading, and listening with bite-sized lessons designed by language experts. Track your progress with goals, streaks, and rewards to stay motivated. With over 30 languages to choose from, mastering a new skill has never been easier."
   }
 ]
