@@ -63,7 +63,7 @@ const AppDetails = () => {
 
         <div className="md:w-8/12">
           <div className="mb-3">
-            <h2 className="font-bold text-3xl">{title}</h2>
+            <h2 className="font-bold text-3xl mb-3">{title}</h2>
             <p className="text-sm text-[#627382]">
               Developed by{" "}
               <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
@@ -74,15 +74,23 @@ const AppDetails = () => {
 
           <div className="border-b-1 border-[#899097] mb-5"></div>
 
-          <div className="flex justify-center md:justify-normal gap-4">
+          <div className="flex justify-evenly md:justify-normal md:gap-4 mb-5 ">
             <div>
-              <img className="w-10" src="../assets/icon-downloads.png" alt="" />
+              <img
+                className="w-10"
+                src="https://i.ibb.co.com/8gwxxgTV/fi-9131795.png"
+                alt=""
+              />
               <p className="text-sm text-[#627382]">Downloads</p>
               <p className="font-bold text-4xl text-[#001931]">{downloads}</p>
             </div>
 
             <div>
-              <img className="w-10" src="../assets/icon-ratings.png" alt="" />
+              <img
+                className="w-10"
+                src="https://i.ibb.co.com/RnBMDvM/fi-1828884.png"
+                alt=""
+              />
               <p className="text-sm text-[#627382]">Average Ratings</p>
               <p className="font-bold text-4xl text-[#001931]">
                 {average.toFixed(1)}
@@ -99,7 +107,6 @@ const AppDetails = () => {
           <div className="mt-3 text-center md:text-left">
             <button
               onClick={handleInstallation}
-              
               disabled={installed}
               className={`rounded-xl px-6 py-3 transition ${
                 installed
@@ -116,8 +123,8 @@ const AppDetails = () => {
       <div className="border-t-1 border-[#899097] mt-5"></div>
 
       <div>
-        <h2 className="font-bold text-2xl">Ratings</h2>
-        <div className="bg-base-100 border rounded-xl p-4 h-90">
+        <h2 className="font-bold text-2xl my-3">Ratings</h2>
+        <div className="bg-base-100 border rounded-xl p-2 h-90">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart
               layout="vertical"
@@ -125,18 +132,13 @@ const AppDetails = () => {
               margin={{ top: 20, right: 30, left: 50, bottom: 5 }}
             >
               <CartesianGrid strokeDasharray="3 3" />
-         
+
               <XAxis type="number" />
-             
+
               <YAxis dataKey="name" type="category" width={80} />
               <Tooltip />
               <Legend />
-              <Bar
-                dataKey="count"
-                fill="#8884d8"
-                barSize={30}
-             
-              />
+              <Bar dataKey="count" fill="#8884d8" barSize={30} />
             </BarChart>
           </ResponsiveContainer>
         </div>

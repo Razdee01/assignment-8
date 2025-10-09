@@ -38,25 +38,28 @@ const Home = () => {
         <div className="flex justify-center items-center gap-2 m-3">
           <Link to={"https://play.google.com/store/games?hl=en"}>
             <div className="flex justify-center items-center gap-2 btn">
-              <img src="../assets/Group1.png" alt="gg" />
+              <img
+                src="https://i.ibb.co.com/sdD9pc61/fi-16076057.png"
+                alt="gg"
+              />
               <span>Google Play</span>
             </div>
           </Link>
           <Link to={"https://www.apple.com/app-store/"}>
             <div className="flex justify-center items-center gap-2 btn">
-              <img src="../assets/Group2.png" alt="gg" />
+              <img src="https://i.ibb.co.com/PZWTsnJv/Group-3.png" alt="gg" />
               <span>App Store</span>
             </div>
           </Link>
         </div>
         <div className="flex items-center justify-center px-3">
-          <img src="../assets/hero.png" alt="" />
+          <img src="https://i.ibb.co.com/nM0NVtG5/hero.png" alt="" />
         </div>
         <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white p-10">
           <h2 className="text-2xl font-bold mb-4">
             Trusted by Millions, Built for You
           </h2>
-          <div className="flex justify-center items-center gap-2">
+          <div className="md:flex justify-center items-center gap-2 space-y-4 md:space-y-0">
             <div>
               <p className="text-sm">Total Downloads</p>
               <p className="text-4xl font-bold">29.6M</p>
@@ -76,7 +79,7 @@ const Home = () => {
         </div>
       </div>
       {/* card section */}
-      <div className="text-center my-8 space-y-2">
+      <div className="text-center my-8 space-y-2 px-2">
         <h2 className="text-4xl font-bold">Trending Apps</h2>
         <p className="text-[#627382] text-sm">
           Explore All Trending Apps on the Market developed by us
@@ -89,8 +92,10 @@ const Home = () => {
       </div>
       <Link to={"/apps"}>
         <div className="flex justify-center items-center">
-          <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white 
-           p-2 px-6  mb-5 mt-2">
+          <button
+            className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white 
+           p-2 px-6  mb-5 mt-2"
+          >
             Show All
           </button>
         </div>

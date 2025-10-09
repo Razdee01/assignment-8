@@ -58,7 +58,11 @@ const NavBar = () => {
           </ul>
         </div>
         <Link to={"/"} className="btn btn-ghost text-xl ">
-          <img className="w-10 h-10 " src="../assets/logo.png" alt="" />
+          <img
+            className="w-10 h-10 "
+            src="https://i.ibb.co.com/YTFrrHNL/logo-D9-NHcesw-1.png"
+            alt=""
+          />
           <span
             className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text 
             text-transparent
@@ -108,7 +112,7 @@ const NavBar = () => {
           to={"https://github.com/Razdee01/assignment-8"}
           className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
         >
-          <img src="../assets/Vector.png" alt="" />
+          <img src="https://i.ibb.co.com/bjscT9Sn/fi-2111432.png" alt="" />
           Contribute
         </Link>
       </div>

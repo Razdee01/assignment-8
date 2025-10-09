@@ -20,7 +20,7 @@ const HomeApps = ({ app }) => {
             <button className="flex items-center bg-[#F1F5E8] text-[#00D390] p-2 rounded-xl">
               <img
                 className="w-5 mr-1"
-                src="../assets/icon-downloads.png"
+                src="https://i.ibb.co.com/8gwxxgTV/fi-9131795.png"
                 alt=""
               />
               {downloads}
@@ -28,10 +28,10 @@ const HomeApps = ({ app }) => {
             <button className="flex items-center bg-[#F1F5E8] text-[#FF8811] p-2 rounded-xl">
               <img
                 className="w-5 mr-1"
-                src="../assets/icon-ratings.png"
+                src="https://i.ibb.co.com/RnBMDvM/fi-1828884.png"
                 alt="rating icon"
               />
-               {average.toFixed(1)}
+              {average.toFixed(1)}
             </button>
           </div>
         </div>
