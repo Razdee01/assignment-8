@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 import useApps from "../customHook/useApps";
 import HomeApps from "../component/HomeApps";
+import Loading from "../component/Loading";
 
 
 
@@ -9,9 +10,7 @@ const Home = () => {
   const { apps, loading, error } = useApps();
   const homePage = apps.slice(0, 8);
 
-  if (loading) {
-    return <p>Loading...</p>;
-  }
+  if (loading) return <Loading></Loading>;
   // if(error){
   //   return <Error></Error>
   // }

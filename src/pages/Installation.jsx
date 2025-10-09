@@ -1,13 +1,22 @@
 import React, { useEffect, useState } from "react";
+import Loading from "../component/Loading";
 
 const Installation = () => {
   const [list, setList] = useState([]);
   const [sortOrder, setSortOrder] = useState("none");
+  const [loading, setLoading] = useState(true);
+  
+
+
 
   useEffect(() => {
     const savedList = JSON.parse(localStorage.getItem("list"));
-    if (savedList) setList(savedList);
+    if (savedList) {
+      setList(savedList);
+    }
+    setLoading(false); 
   }, []);
+  if (loading) return <Loading></Loading>;
 
   const convertDownloads = (str) => {
     if (!str) return 0;
@@ -49,6 +58,8 @@ const Installation = () => {
       </div>
     );
   }
+ 
+
 
   return (
     <>

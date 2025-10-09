@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import AllApps from "../component/AllApps";
 import useApps from "../customHook/useApps";
-
+import Loading from "../component/Loading";
+import "react-toastify/dist/ReactToastify.css";
 const Apps = () => {
-  const { apps, loading, error } = useApps();
+  const { apps, loading} = useApps();
   const [search, setSearch] = useState("");
-const term=search.trim().toLowerCase()
-const searchedApps=term?apps.filter(app=>app.title.toLowerCase().includes(term)):apps
+  const [searchLoading, setSearchLoading] = useState(false);
 
+  const term = search.trim().toLowerCase();
+  const searchedApps = term
+    ? apps.filter((app) => app.title.toLowerCase().includes(term))
+    : apps;
 
-  if (loading) return <p>Loading...</p>;
- 
+  if (loading) return <Loading></Loading>;
+
   return (
     <>
       <div className="text-center mt-8 w-11/12 mx-auto">
@@ -45,7 +49,11 @@ const searchedApps=term?apps.filter(app=>app.title.toLowerCase().includes(term))
               </svg>
               <input
                 value={search}
-                onChange={(e) => setSearch(e.target.value)}
+                onChange={(e) => {
+                  setSearchLoading(true);
+                  setSearch(e.target.value);
+                  setTimeout(() => setSearchLoading(false), 200);
+                }}
                 type="search"
                 required
                 placeholder="Search"
@@ -55,9 +63,17 @@ const searchedApps=term?apps.filter(app=>app.title.toLowerCase().includes(term))
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {searchedApps.map((app) => (
-            <AllApps key={app.id} app={app} />
-          ))}
+          {searchLoading ? (
+            <div className="col-span-full flex justify-center items-center h-40">
+              <Loading />
+            </div>
+          ) : searchedApps.length > 0 ? (
+            searchedApps.map((app) => <AllApps key={app.id} app={app} />)
+          ) : (
+            <div className="col-span-full text-center mt-10 text-gray-500">
+              No apps found matching your search.
+            </div>
+          )}
         </div>
       </div>
     </>

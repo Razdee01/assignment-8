@@ -6,6 +6,8 @@ const HomeApps = ({ app }) => {
     const average =
       ratingAvg.reduce((sum, r, i) => sum + (i + 1) * r.count, 0) /
       ratingAvg.reduce((sum, r) => sum + r.count, 0);
+
+  
   return (
     <Link to={`/details/${id}`}>
       <div className="card bg-base-100 shadow-sm p-3 hover:scale-105 duration-300">

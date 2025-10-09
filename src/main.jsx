@@ -10,6 +10,11 @@ import Apps from './pages/Apps.jsx'
 import Installation from './pages/Installation.jsx'
 import Error from './component/Error.jsx'
 import AppDetails from './component/AppDetails.jsx'
+import Loading from './component/Loading.jsx'
+import AppError from './component/AppError.jsx'
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 
 const router = createBrowserRouter([
   {
@@ -17,17 +22,20 @@ const router = createBrowserRouter([
     Component: MainLayout,
     errorElement: <Error></Error>,
 
-    hydrateFallbackElement: <p>Loading...</p>,
+    hydrateFallbackElement: <Loading></Loading>,
     children: [
       { index: true, Component: Home },
       { path: "apps", Component: Apps },
       { path: "installation", Component: Installation },
-      { path: "/details/:id", Component: AppDetails },
+      { path: "/details/:id",
+        errorElement: <AppError></AppError>,
+        Component: AppDetails },
     ],
   },
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    <ToastContainer />
     <RouterProvider router={router} />
   </StrictMode>
 );

@@ -2,10 +2,13 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../customHook/useApps";
 import { Bar, BarChart, CartesianGrid, Legend, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import Loading from "./Loading";
+import {  toast } from "react-toastify";
+
 
 const AppDetails = () => {
   const { id } = useParams();
-  const { apps, loading, error } = useApps();
+  const { apps, loading } = useApps();
 
   const [installed, setInstalled] = useState(false);
 
@@ -15,13 +18,12 @@ const AppDetails = () => {
     const isInstalled = existing.some((a) => String(a.id) === String(id));
     if (isInstalled) setInstalled(true);
   }, [id]);
-  //  ----- ✅ Handle loading and error states early
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error loading apps...</p>;
-  // ------------------------------------------
-  // if (!apps || apps.length === 0) return <p>No apps available</p>;
+
+  if (loading) return <Loading></Loading>;
+  
+ 
   const app = apps.find((p) => String(p.id) === id);
-  // if (!app) return <p>App not found</p>;
+
 
   const {
     image,
@@ -38,6 +40,7 @@ const AppDetails = () => {
     ratingAvg.reduce((sum, r) => sum + r.count, 0);
 
   const handleInstallation = () => {
+    toast.success("App Installed Successfully 🎉");
     const existing = JSON.parse(localStorage.getItem("list"));
     let updatedList = [];
     if (existing) {
@@ -96,6 +99,7 @@ const AppDetails = () => {
           <div className="mt-3 text-center md:text-left">
             <button
               onClick={handleInstallation}
+              
               disabled={installed}
               className={`rounded-xl px-6 py-3 transition ${
                 installed
