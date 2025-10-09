@@ -3,6 +3,10 @@ import { Link } from 'react-router';
 
 const AllApps = ({app}) => {
     const { image, ratingAvg, downloads, title, id } = app;
+    const average =
+      ratingAvg.reduce((sum, r, i) => sum + (i + 1) * r.count, 0) /
+      ratingAvg.reduce((sum, r) => sum + r.count, 0);
+
     
     
     return (
@@ -33,7 +37,7 @@ const AllApps = ({app}) => {
                     src="../assets/icon-ratings.png"
                     alt=""
                   />
-                  {ratingAvg}
+                  {average.toFixed(1)}
                 </button>
               </div>
             </div>

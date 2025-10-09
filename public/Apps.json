@@ -7,7 +7,13 @@
     "size": 38,
     "downloads": "1B+",
     "reviews": "32.4M",
-    "ratingAvg": 4.4,
+    "ratingAvg": [
+      { "name": "1 star", "count": 235000 },
+      { "name": "2 star", "count": 410000 },
+      { "name": "3 star", "count": 820000 },
+      { "name": "4 star", "count": 7200000 },
+      { "name": "5 star", "count": 24000000 }
+    ],
     "description": "Spotify lets you listen to millions of songs, podcasts, and audiobooks with personalized recommendations. Create and share playlists, explore new releases, and enjoy your favorite artists across all your devices. With offline listening and premium sound quality, Spotify delivers a seamless audio experience. Discover your next favorite track every day with curated mixes and radio stations."
   },
   {
@@ -18,7 +24,13 @@
     "size": 64,
     "downloads": "5B+",
     "reviews": "158M",
-    "ratingAvg": 4.2,
+    "ratingAvg": [
+      { "name": "1 star", "count": 5200000 },
+      { "name": "2 star", "count": 6300000 },
+      { "name": "3 star", "count": 14200000 },
+      { "name": "4 star", "count": 43000000 },
+      { "name": "5 star", "count": 90000000 }
+    ],
     "description": "Instagram is a social platform where you can share your life through photos, videos, and stories. Connect with friends, follow creators, and explore content from around the world. Use Reels to create and discover entertaining short videos, or shop directly from your favorite brands. Express yourself creatively and stay connected with your community every day."
   },
   {
@@ -29,7 +41,13 @@
     "size": 39,
     "downloads": "5B+",
     "reviews": "189M",
-    "ratingAvg": 4.3,
+    "ratingAvg": [
+      { "name": "1 star", "count": 3200000 },
+      { "name": "2 star", "count": 4100000 },
+      { "name": "3 star", "count": 8800000 },
+      { "name": "4 star", "count": 56000000 },
+      { "name": "5 star", "count": 117000000 }
+    ],
     "description": "WhatsApp Messenger makes it simple to stay in touch with friends and family for free, using your internet connection. Send text messages, photos, videos, and voice messages instantly. Enjoy high-quality voice and video calls across the world, and stay secure with end-to-end encryption. With group chats and status updates, WhatsApp keeps your connections close wherever you are."
   },
   {
@@ -40,7 +58,13 @@
     "size": 78,
     "downloads": "5B+",
     "reviews": "112M",
-    "ratingAvg": 4.5,
+    "ratingAvg": [
+      { "name": "1 star", "count": 2100000 },
+      { "name": "2 star", "count": 3300000 },
+      { "name": "3 star", "count": 5100000 },
+      { "name": "4 star", "count": 27000000 },
+      { "name": "5 star", "count": 74000000 }
+    ],
     "description": "TikTok is the ultimate destination for short-form mobile videos that inspire creativity and bring joy. Discover trending content from creators around the world, or join in by sharing your own. With powerful editing tools, effects, and music options, you can make every video unique. Explore new ideas, challenges, and entertainment — all in one place."
   },
   {
@@ -51,7 +75,13 @@
     "size": 65,
     "downloads": "1B+",
     "reviews": "34.5M",
-    "ratingAvg": 4.1,
+    "ratingAvg": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2400000 },
+      { "name": "3 star", "count": 4300000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 14500000 }
+    ],
     "description": "Snapchat is a fast and fun camera app that helps you stay connected with friends and express yourself. Share moments instantly with Snaps, or start conversations using chat, voice, or video. Explore public stories and spotlight videos from around the world. With creative lenses, filters, and Bitmojis, every Snap feels unique and personal."
   },
   {
@@ -62,7 +92,13 @@
     "size": 42,
     "downloads": "1B+",
     "reviews": "15M",
-    "ratingAvg": 4.6,
+    "ratingAvg": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 320000 },
+      { "name": "3 star", "count": 540000 },
+      { "name": "4 star", "count": 4200000 },
+      { "name": "5 star", "count": 9950000 }
+    ],
     "description": "Telegram is a fast, secure, and powerful messaging app with privacy and unlimited cloud storage. Send messages, media, and files of any type securely. Enjoy advanced group chats, channels, and bots to enhance communication. Telegram ensures your conversations stay safe while keeping you connected wherever you are."
   },
   {
@@ -73,7 +109,13 @@
     "size": 48,
     "downloads": "10B+",
     "reviews": "16.2M",
-    "ratingAvg": 4.4,
+    "ratingAvg": [
+      { "name": "1 star", "count": 330000 },
+      { "name": "2 star", "count": 480000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 4200000 },
+      { "name": "5 star", "count": 10700000 }
+    ],
     "description": "Google Maps provides accurate navigation, real-time traffic updates, and local business information. Explore new places, find restaurants, and get directions with voice-guided GPS. Save your favorite locations and share them easily with friends. Whether you’re driving, walking, or biking, Google Maps makes every journey easier."
   },
   {
@@ -84,7 +126,13 @@
     "size": 63,
     "downloads": "10B+",
     "reviews": "155M",
-    "ratingAvg": 4.3,
+    "ratingAvg": [
+      { "name": "1 star", "count": 4200000 },
+      { "name": "2 star", "count": 5700000 },
+      { "name": "3 star", "count": 9100000 },
+      { "name": "4 star", "count": 53000000 },
+      { "name": "5 star", "count": 83000000 }
+    ],
     "description": "YouTube is the world’s largest video-sharing platform where you can watch, create, and share content. Discover music, vlogs, tutorials, and entertainment from millions of creators. Subscribe to channels you love and stay updated with notifications for new videos. Stream seamlessly across devices and enjoy offline viewing with YouTube Premium."
   },
   {
@@ -95,7 +143,13 @@
     "size": 45,
     "downloads": "1B+",
     "reviews": "15.9M",
-    "ratingAvg": 4.4,
+    "ratingAvg": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 580000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3800000 },
+      { "name": "5 star", "count": 11100000 }
+    ],
     "description": "Netflix is the leading streaming service for watching movies, TV shows, and documentaries. Enjoy unlimited viewing with personalized recommendations and exclusive original content. Download episodes to watch offline and switch between devices effortlessly. Discover new entertainment every day with global hits and local favorites."
   },
   {
@@ -106,7 +160,13 @@
     "size": 60,
     "downloads": "5B+",
     "reviews": "135M",
-    "ratingAvg": 4.1,
+    "ratingAvg": [
+      { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 9000000 },
+      { "name": "3 star", "count": 11000000 },
+      { "name": "4 star", "count": 41000000 },
+      { "name": "5 star", "count": 68000000 }
+    ],
     "description": "Facebook helps you stay connected with friends, family, and communities worldwide. Share updates, photos, and memories, or join groups that match your interests. Buy and sell items on Marketplace, watch videos, or follow your favorite pages. Facebook keeps you informed and connected, no matter where you are."
   },
   {
@@ -117,7 +177,13 @@
     "size": 52,
     "downloads": "500M+",
     "reviews": "24.5M",
-    "ratingAvg": 4.3,
+    "ratingAvg": [
+      { "name": "1 star", "count": 750000 },
+      { "name": "2 star", "count": 1100000 },
+      { "name": "3 star", "count": 2100000 },
+      { "name": "4 star", "count": 7100000 },
+      { "name": "5 star", "count": 14000000 }
+    ],
     "description": "Amazon Shopping gives you access to millions of products with fast delivery and secure payments. Browse categories, track your orders, and get real-time deals and discounts. With personalized recommendations and 24/7 customer support, shopping online is easier than ever. Discover convenience and savings in every purchase."
   },
   {
@@ -128,7 +194,13 @@
     "size": 50,
     "downloads": "1B+",
     "reviews": "17.5M",
-    "ratingAvg": 4.0,
+    "ratingAvg": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2400000 },
+      { "name": "3 star", "count": 2800000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 7200000 }
+    ],
     "description": "Twitter (X) lets you join the conversation and see what's happening worldwide. Post tweets, follow trends, and engage with communities that interest you. Share text, photos, videos, or links to express your ideas instantly. Stay informed in real-time and interact with content from millions of users."
   },
   {
@@ -139,7 +211,13 @@
     "size": 720,
     "downloads": "1B+",
     "reviews": "46.1M",
-    "ratingAvg": 4.3,
+    "ratingAvg": [
+      { "name": "1 star", "count": 1400000 },
+      { "name": "2 star", "count": 2100000 },
+      { "name": "3 star", "count": 3600000 },
+      { "name": "4 star", "count": 12500000 },
+      { "name": "5 star", "count": 26800000 }
+    ],
     "description": "PUBG MOBILE delivers thrilling multiplayer battle royale action with realistic graphics and immersive gameplay. Compete solo, duo, or in squads, and explore detailed maps for strategic combat. Participate in seasonal events, missions, and challenges to earn rewards. Team up with friends and experience intense, fast-paced battles anywhere."
   },
   {
@@ -150,7 +228,13 @@
     "size": 153,
     "downloads": "1B+",
     "reviews": "39.1M",
-    "ratingAvg": 4.5,
+    "ratingAvg": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 27000000 }
+    ],
     "description": "Subway Surfers is an endless runner game where you dodge trains, collect coins, and escape from the inspector. Explore vibrant cities around the world and upgrade your character’s skills. Complete daily challenges and participate in events for exciting rewards. Smooth controls, colorful visuals, and fun power-ups make every run addictive."
   },
   {
@@ -161,7 +245,13 @@
     "size": 34,
     "downloads": "10B+",
     "reviews": "11.5M",
-    "ratingAvg": 4.3,
+    "ratingAvg": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 8500000 }
+    ],
     "description": "Gmail is a reliable and secure email app that helps you stay organized and connected. Automatically filter spam, manage inbox categories, and search emails quickly. Access your messages across devices with seamless synchronization and smart notifications. Communicate easily with built-in video calls and Google Chat integration."
   },
   {
@@ -172,7 +262,13 @@
     "size": 77,
     "downloads": "1B+",
     "reviews": "11M",
-    "ratingAvg": 4.2,
+    "ratingAvg": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 450000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 3400000 },
+      { "name": "5 star", "count": 6500000 }
+    ],
     "description": "Zoom provides reliable video conferencing, messaging, and collaboration tools for teams and individuals. Host secure meetings, webinars, and online events from any device. With HD video, screen sharing, and breakout rooms, communication is seamless and productive. Stay connected anywhere with Zoom’s trusted global platform."
   },
   {
@@ -183,40 +279,64 @@
     "size": 54,
     "downloads": "1B+",
     "reviews": "18.7M",
-    "ratingAvg": 4.4,
-    "description": "LinkedIn helps you connect with professionals, build your network, and grow your career. Discover job opportunities, follow companies, and stay informed with industry news. Share your achievements and insights to engage with your community. Whether you’re hiring or job hunting, LinkedIn makes professional networking easier."
+    "ratingAvg": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 5500000 },
+      { "name": "5 star", "count": 11000000 }
+    ],
+    "description": "LinkedIn helps you connect with professionals, build your network, and grow your career. Discover job opportunities, follow companies, and stay informed with industry news. Share your achievements and insights to engage your professional audience and showcase your expertise to recruiters worldwide."
   },
   {
     "id": 18,
-    "image": "https://i.ibb.co.com/gM8tNgr4/png-transparent-spotify-podcast-spotify-logo-text-logo-music-download-thumbnail.png",
-    "title": "Spotify Lite",
-    "companyName": "Spotify AB",
-    "size": 12,
-    "downloads": "100M+",
-    "reviews": "2.2M",
-    "ratingAvg": 4.4,
-    "description": "Spotify Lite is a simplified version of Spotify built for speed and efficiency. Enjoy millions of songs and podcasts while using less data and storage space. Track your data usage, manage downloads, and stream even on slower networks. Perfect for listeners who want music anywhere, anytime, without compromising performance."
-  },
-  {
-    "id": 19,
-    "image": "https://i.ibb.co.com/BVCFjTtb/canva-logo-png-seeklogo-438258.png",
-    "title": "Canva: Design, Photo & Video",
+    "image": "https://i.ibb.co.com/TmR1xvq/2048x2048bb.jpg",
+    "title": "Canva",
     "companyName": "Canva",
     "size": 48,
     "downloads": "500M+",
-    "reviews": "10.3M",
-    "ratingAvg": 4.7,
-    "description": "Canva makes designing easy and accessible for everyone. Create social media posts, videos, logos, and presentations effortlessly using intuitive tools and templates. Collaborate with your team in real time and export your designs quickly. Whether for professional or personal projects, Canva simplifies creative expression."
+    "reviews": "13.8M",
+    "ratingAvg": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 220000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 3600000 },
+      { "name": "5 star", "count": 9500000 }
+    ],
+    "description": "Canva is a design app that helps you create professional graphics, presentations, and social media posts with ease. Use customizable templates, drag-and-drop tools, and millions of stock photos. Collaborate with your team and share your designs instantly. Whether for business or personal projects, Canva makes creativity simple."
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/MR52GTF/unnamed-1.png",
+    "title": "Duolingo: Language Lessons",
+    "companyName": "Duolingo",
+    "size": 43,
+    "downloads": "500M+",
+    "reviews": "15.6M",
+    "ratingAvg": [
+      { "name": "1 star", "count": 230000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 4100000 },
+      { "name": "5 star", "count": 10500000 }
+    ],
+    "description": "Duolingo makes learning a new language fun and interactive with quick daily lessons. Practice reading, speaking, and listening while earning rewards. Track progress, compete with friends, and unlock new skills. Duolingo helps you build real-world communication abilities in over 30 languages — all for free."
   },
   {
     "id": 20,
-    "image": "https://i.ibb.co.com/qY91FsfX/duolingo-logo-png-seeklogo-458347.png",
-    "title": "Duolingo: Language Lessons",
-    "companyName": "Duolingo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Google_Photos_icon_%282020%29.svg",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
     "size": 40,
-    "downloads": "500M+",
-    "reviews": "18.1M",
-    "ratingAvg": 4.7,
-    "description": "Duolingo makes learning a new language fun, fast, and free. Practice speaking, reading, and listening with bite-sized lessons designed by language experts. Track your progress with goals, streaks, and rewards to stay motivated. With over 30 languages to choose from, mastering a new skill has never been easier."
+    "downloads": "10B+",
+    "reviews": "12.3M",
+    "ratingAvg": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 550000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 8200000 }
+    ],
+    "description": "Google Photos provides smart photo and video storage with automatic backups and advanced organization. Search your memories easily using AI, share albums, and free up device space. With editing tools and shared libraries, managing your digital memories has never been easier."
   }
 ]

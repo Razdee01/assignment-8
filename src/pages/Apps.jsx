@@ -7,12 +7,10 @@ const Apps = () => {
   const [search, setSearch] = useState("");
 const term=search.trim().toLowerCase()
 const searchedApps=term?apps.filter(app=>app.title.toLowerCase().includes(term)):apps
-console.log(searchedApps);
 
-  // if (loading) {
-  //   return <p>Loading...</p>;
-  // }
 
+  if (loading) return <p>Loading...</p>;
+ 
   return (
     <>
       <div className="text-center mt-8 w-11/12 mx-auto">

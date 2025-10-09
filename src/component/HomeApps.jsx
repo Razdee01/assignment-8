@@ -3,6 +3,9 @@ import { Link } from 'react-router';
 
 const HomeApps = ({ app }) => {
     const { image, ratingAvg, downloads, title,id } = app;
+    const average =
+      ratingAvg.reduce((sum, r, i) => sum + (i + 1) * r.count, 0) /
+      ratingAvg.reduce((sum, r) => sum + r.count, 0);
   return (
     <Link to={`/details/${id}`}>
       <div className="card bg-base-100 shadow-sm p-3 hover:scale-105 duration-300">
@@ -24,9 +27,9 @@ const HomeApps = ({ app }) => {
               <img
                 className="w-5 mr-1"
                 src="../assets/icon-ratings.png"
-                alt=""
+                alt="rating icon"
               />
-              {ratingAvg}
+               {average.toFixed(1)}
             </button>
           </div>
         </div>
