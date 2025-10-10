@@ -132,11 +132,7 @@ const Installation = () => {
                     </div>
 
                     <div className="flex items-center gap-2 ">
-                      <img
-                        className="w-5 h-5"
-                        src="../pics/icon-review.png"
-                        alt=""
-                      />
+                   
                       <p className="text-sm font-normal">{`${p.size} MB`}</p>
                     </div>
                   </div>
