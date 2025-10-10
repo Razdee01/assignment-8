@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Loading from "../component/Loading";
+import { toast } from "react-toastify";
 
 const Installation = () => {
   const [list, setList] = useState([]);
@@ -42,6 +43,7 @@ const Installation = () => {
   };
 
   const handleRemove = (id) => {
+    toast("App Is Uninstalled");
     const existing = JSON.parse(localStorage.getItem("list"));
     let updatedList = existing.filter((p) => p.id !== id);
     setList(updatedList);
