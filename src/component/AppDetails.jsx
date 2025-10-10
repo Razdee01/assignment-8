@@ -76,31 +76,23 @@ const AppDetails = () => {
 
           <div className="flex justify-evenly md:justify-normal md:gap-4 mb-5 ">
             <div>
-              <img
-                className="w-10"
-                src="https://i.ibb.co.com/8gwxxgTV/fi-9131795.png"
-                alt=""
-              />
+              <img className="w-5 md:w-10" src="../pics/icon-downloads.png" alt="" />
               <p className="text-sm text-[#627382]">Downloads</p>
-              <p className="font-bold text-4xl text-[#001931]">{downloads}</p>
+              <p className="font-bold text-xl md:text-4xl text-[#001931]">{downloads}</p>
             </div>
 
             <div>
-              <img
-                className="w-10"
-                src="https://i.ibb.co.com/RnBMDvM/fi-1828884.png"
-                alt=""
-              />
+              <img className="w-5 md:w-10" src="../pics/icon-ratings.png" alt="" />
               <p className="text-sm text-[#627382]">Average Ratings</p>
-              <p className="font-bold text-4xl text-[#001931]">
+              <p className="font-bold text-xl md:text-4xl text-[#001931]">
                 {average.toFixed(1)}
               </p>
             </div>
 
             <div>
-              <img className="w-10" src="../assets/icon-review.png" alt="" />
+              <img className="w-5 md:w-10" src="../pics/icon-review.png" alt="" />
               <p className="text-sm text-[#627382]">Total Reviews</p>
-              <p className="font-bold text-4xl text-[#001931]">{reviews}</p>
+              <p className="font-bold text-xl md:text-4xl text-[#001931]">{reviews}</p>
             </div>
           </div>
 

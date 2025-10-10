@@ -8,7 +8,7 @@ const AppError = () => {
     <>
       <div className="flex flex-col min-h-screen">
        
-
+        
         <div className="flex-1">
           <div className="flex flex-col justify-center items-center h-screen gap-5">
             <img src="https://i.ibb.co.com/b5F4v8mJ/OBJECTS.png" alt="" />

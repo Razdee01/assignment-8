@@ -26,7 +26,7 @@ const AllApps = ({app}) => {
                 <button className="flex items-center bg-[#F1F5E8] text-[#00D390] p-2 rounded-xl">
                   <img
                     className="w-5 mr-1"
-                    src="https://i.ibb.co.com/8gwxxgTV/fi-9131795.png"
+                    src="../pics/icon-downloads.png"
                     alt=""
                   />
                   {downloads}
@@ -34,7 +34,7 @@ const AllApps = ({app}) => {
                 <button className="flex items-center bg-[#F1F5E8] text-[#FF8811] p-2 rounded-xl">
                   <img
                     className="w-5 mr-1"
-                    src="https://i.ibb.co.com/RnBMDvM/fi-1828884.png"
+                    src="../pics/icon-ratings.png"
                     alt=""
                   />
                   {average.toFixed(1)}

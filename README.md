@@ -1,16 +1,41 @@
-# React + Vite
+🚀 PhStore – React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📝 Description
 
-Currently, two official plugins are available:
+PhStore is a modern React web application that allows users to explore, search, and manage apps interactively.
+Users can view app details, ratings, and download statistics, as well as install or uninstall apps using local storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💻 Technologies Used
 
-## React Compiler
+React.js – Front-end JavaScript library for building user interfaces
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tailwind CSS – Utility-first CSS framework for responsive styling
 
-## Expanding the ESLint configuration
+Recharts – Data visualization library for charts and graphs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Axios – Promise-based HTTP client for API requests
+
+React Router – Client-side routing for page navigation
+
+React Toastify – Notification library for success/error toasts
+
+🌐 Live Demo
+
+👉 View the Live Project https://razdee-react-app.netlify.app/
+
+📚 Key Features
+
+🔍 Search and filter apps
+
+📊 View app ratings and analytics
+
+💾 Install/Uninstall apps with Local Storage
+
+📱 Fully responsive layout
+
+⚡ Fast and interactive user experience
+
+👨‍💻 Developer
+
+Razdee Rahman
+Programming Hero Student

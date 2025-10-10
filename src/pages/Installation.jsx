@@ -112,7 +112,7 @@ const Installation = () => {
                     <div className="flex items-center gap-2 text-sm font-light">
                       <img
                         className="w-5 h-5"
-                        src="https://i.ibb.co.com/8gwxxgTV/fi-9131795.png"
+                        src="../pics/icon-downloads.png"
                         alt=""
                       />
                       <p className="text-[#00D390]">{p.downloads}</p>
@@ -121,7 +121,7 @@ const Installation = () => {
                     <div className="flex items-center gap-2 ">
                       <img
                         className="w-5 h-5"
-                        src="https://i.ibb.co.com/RnBMDvM/fi-1828884.png"
+                        src="../pics/icon-ratings.png"
                         alt=""
                       />
                       <p className="text-sm font-normal">
@@ -129,7 +129,12 @@ const Installation = () => {
                       </p>
                     </div>
 
-                    <div>
+                    <div className="flex items-center gap-2 ">
+                      <img
+                        className="w-5 h-5"
+                        src="../pics/icon-review.png"
+                        alt=""
+                      />
                       <p className="text-sm font-normal">{`${p.size} MB`}</p>
                     </div>
                   </div>
